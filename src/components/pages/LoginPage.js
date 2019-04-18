@@ -4,7 +4,7 @@ import LoginForm from '../forms/LoginForm';
 
 class LoginPage extends React.Component {
     render () {
-        submit.propTypes = data => {
+       const submit = data => {
             console.log(data)
         };
         return (
