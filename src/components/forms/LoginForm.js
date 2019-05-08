@@ -5,8 +5,6 @@ import Validator from 'validator';
 import InlineError from '../messages/InlineError';
 
 class LoginForm extends React.Component {
-    constructor(props) {
-        super(props);
         state = {
             data: {
                 email: '',
@@ -14,8 +12,8 @@ class LoginForm extends React.Component {
             },
             loading: false,
             errors: {}
-        };
-    }
+        };      
+
 
     onChange = e => {
         this.setState({
