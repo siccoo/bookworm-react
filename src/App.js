@@ -6,6 +6,7 @@ import SignupPage from './components/pages/SignupPage';
 import DashboardPage from './components/pages/DashboardPage';
 import UserRoute from './components/routes/UserRoute';
 import GuestRoute from './components/routes/GuestRoute';
+import PropTypes from 'prop-types';
 
 
 const App = ({ location }) => (

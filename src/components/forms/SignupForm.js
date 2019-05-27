@@ -6,7 +6,7 @@ import InlineError from '../messages/InlineError';
 
 class SignupForm extends React.Component {
     state = {
-        data = {
+        data: {
             email: '',
             password: ''
         },
